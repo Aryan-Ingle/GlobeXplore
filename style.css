@@ -6,6 +6,15 @@
     border-color:black;
     border-radius:2px;
 }
+@media (width<790px){
+    #packages,#offers,#destinations,#contact,#more{
+        margin-right:10px;
+        font-size: 12px;
+    }
+    #logo{
+        margin-right:0px;
+    }
+}
 #logo{
     height:96px;
     color:black;
@@ -24,19 +33,45 @@ a:hover{
     color: darkgray;
     text-decoration: underline;
 }
-#search{
+@media(width>570px){
+    #search{
     height: 30px;
     width: 150px;
-    display: flex;
+    display: inline-block;
     margin-top: 35px;
     font-size: 10px;
+    position:absolute;
+    right:60px;
 }
-#mag{
+    #mag{
     height:30px;
     width:30px;
-    display:flex;
+    display:inline-block;
+    position: absolute;
+    right:30px;
     margin-top: 35px;
     text-align: center;
+}
+}
+@media(width<570px){
+    #search{
+    height: 30px;
+    width: 150px;
+    display: inline-block;
+    margin-top: 60px;
+    font-size: 10px;
+    position:absolute;
+    right:60px;
+}
+    #mag{
+    height:30px;
+    width:30px;
+    display:inline-block;
+    position: absolute;
+    right:30px;
+    margin-top: 60px;
+    text-align: center;
+}
 }
 #image{
     background-color:greenyellow;
