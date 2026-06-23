@@ -121,3 +121,15 @@ h3{
 #globe:hover{
     transform: rotate(360deg);
 }
+.message{
+    font-size:40px;
+    color:midnightblue;
+    background-color: white;
+}
+#prog{
+    text-align: center;
+    text-decoration: underline;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbdJoxBymG-PLYf9ksu2VOfbFja7qxjka4tA&s);
+    background-repeat: repeat;
+    background-size: contain;
+}
